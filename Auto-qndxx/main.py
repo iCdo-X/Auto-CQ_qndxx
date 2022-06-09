@@ -45,7 +45,7 @@ def main():
         * 由数字、大小写字母与符号组成的串
     '''
     # o1Nb9jvaNIRgPj89csPTkhs5Hu1s
-    openid = input('请输入openid:')
+    openid = ''
     # 获取最新的课程 Id   
     id = get_new_course_id()
     auto_lean(openid,id)
