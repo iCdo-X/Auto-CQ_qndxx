@@ -5,5 +5,6 @@
 ### 通过抓包软件找到 OpenID，然后在脚本里 main.py 输入 openID 值及接收邮箱地址
 ![image](https://user-images.githubusercontent.com/102405245/172538537-fe723821-74f8-43e1-913c-591f5a2b31ba.png)
 ### 再将目录下的头像图片文件替换为自己的微信头像(文件名，后缀需一样)替换即可
-### 最后运行 main.py 即可
+### 再将 auto_shots.py 文件里对应修改成自己的信息即可
+### 最后运行 main.py 和 auto_shots.py 即可
 ## 注：本脚本仅为技术交流，本作者将不承担任何责任!
