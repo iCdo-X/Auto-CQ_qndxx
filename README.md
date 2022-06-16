@@ -1,6 +1,7 @@
 ## 本脚本为重庆市青年大学习自动学习，并自动进行截图
 ### OpenID 需通过软件抓包获取
-### 抓包软件下载地址:https://pan.baidu.com/s/1wal26h-X_lFf3TFL_BDWXA?pwd=icdx
+### 抓包软件下载地址:
+#### https://pan.baidu.com/s/1wal26h-X_lFf3TFL_BDWXA?pwd=icdx
 ### 步骤:
 #### 1.打开抓包软件，再登陆PC微信，进入重庆共青团公众号，进行青年大学习
 #### 2.通过抓包软件找到 OpenID，然后在脚本里 main.py 输入 openID 值及接收邮箱地址
