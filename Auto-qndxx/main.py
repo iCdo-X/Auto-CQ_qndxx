@@ -78,12 +78,10 @@ def main():
         * 用户识别码 openid是一个长度为28个字符
         * 由数字、大小写字母与符号组成的串
     '''
-    # o1Nb9jvaNIRgPj89csPTkhs5Hu1s 明
-    # o1Nb9ju13Y9oiOGR75WxhgEMjd5s 康
-    # o1Nb9jr1AHTk3YdyryAHxs6v9NQg 周逼
-    # o1Nb9jr1AHTk3YdyryAHxs6v9NQg 张航
-    openid = ['o1Nb9jvaNIRgPj89csPTkhs5Hu1s','o1Nb9ju13Y9oiOGR75WxhgEMjd5s','o1Nb9jr1AHTk3YdyryAHxs6v9NQg','o1Nb9jr1AHTk3YdyryAHxs6v9NQg']
-    email_user = ['2101543615@qq.com','2089221335@qq.com','2579507340@qq.com','1610753015@qq.com']
+#     微信OpenID
+    openid = [']
+#     接受邮箱地址
+    email_user = ['']
     # 获取最新的课程 Id   
     id = get_new_course_id(1)
     name = get_new_course_id(2)
