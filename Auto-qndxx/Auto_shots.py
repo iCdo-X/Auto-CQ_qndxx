@@ -50,6 +50,7 @@ def change(info,raw='raw.png', icon='icon.jpg', touxiang='touxiang.jpg'):  # 以
     result.paste(touxiang, (13, 132))
 
     '''========================以下为加文字部分==========================='''
+    
     font = ImageFont.truetype('C:/windows/fonts/Simhei.ttf', size=32)
     draw = ImageDraw.Draw(result)
     draw.text((215, 355), info['title'], fill='black', font=font)  # 期数
@@ -57,12 +58,12 @@ def change(info,raw='raw.png', icon='icon.jpg', touxiang='touxiang.jpg'):  # 以
     draw.text((116, 230), info['text'], fill='black', font=font)  # 信息
     result.save('result.png')
 
-def run():
+def main():
     url = get_url()
     Id = get_id(url)
     title_info = get_title(Id)
     get_icon(Id)
     get_end(Id)
-    info = {'nickname':'weix.','text':'网络201 从陈明','title':title_info}
+    info = {'nickname':'微信昵称','text':'班级 姓名','title':title_info}
     change(info)
-run()
+main()
