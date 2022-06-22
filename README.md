@@ -5,7 +5,7 @@
 ### 步骤:
 #### 1.打开抓包软件，再登陆PC微信，进入重庆共青团公众号，进行青年大学习
 #### 2.通过抓包软件找到 OpenID，然后在脚本里 main.py 输入 openID 值及接收邮箱地址
-![image](https://user-images.githubusercontent.com/102405245/172538537-fe723821-74f8-43e1-913c-591f5a2b31ba.png)
+![image](https://user-images.githubusercontent.com/102405245/175059996-a4d060b4-1b9b-4a9c-bdae-e31224575d4d.png)
 #### 3.再将目录下的头像图片文件替换为自己的微信头像(文件名，后缀需一样)替换即可
 #### 4.再将 auto_shots.py 文件里对应修改成自己的信息即可
 #### 5.最后运行 main.py 和 auto_shots.py 即可
